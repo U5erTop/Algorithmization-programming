@@ -1,6 +1,6 @@
 # 🧠 Основы алгоритмизации и программирования на C#
 
-[![.NET](https://github.com/U5erTop/Algorithmization-programming/actions/workflows/dotnet.yml/badge.svg)](https://github.com/U5erTop/Algorithmization-programming/actions/workflows/dotnet.yml)
+[![.NET](https://github.com/your-username/your-repository-name/actions/workflows/dotnet.yml/badge.svg)](https://github.com/your-username/your-repository-name/actions/workflows/dotnet.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Этот репозиторий представляет собой полный сборник учебных материалов, практических задач и проектов по дисциплине "Основы алгоритмизации и программирования", выполненных на языке C#. Здесь отражен весь путь от простейших консольных программ до базовых объектно-ориентированных приложений.
