@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
+// Task 24
             Console.WriteLine("Введите значение перемнной - a");
             double a = Convert.ToDouble(Console.ReadLine());
 
@@ -29,3 +29,4 @@ namespace ConsoleApp1
         }
     }
 }
+
