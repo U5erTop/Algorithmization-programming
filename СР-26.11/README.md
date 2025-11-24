@@ -1,4 +1,4 @@
-# C# Потоки (Threads): 100 Практических Заданий
+# C# Потоки (Threads)
 
 ## Краткое описание Потоков в C#
 
@@ -32,9 +32,7 @@
 
 ---
 
-## 100 ЗАДАНИЙ ПО ПОТОКАМ
-
-### Категория 1: Thread Basics (Основы Thread) — Задания 1-10
+### Категория 1: Thread Basics (Основы Thread)
 
 **Задание 1 (Beginner):** Создайте новый поток, который выведет на консоль сообщение 'Привет из потока'
 
@@ -56,7 +54,7 @@
 
 **Задание 10 (Intermediate):** Создайте несколько потоков и синхронизируйте вывод результатов
 
-### Категория 2: Task Basics (Основы Task) — Задания 11-20
+### Категория 2: Task Basics (Основы Task)
 
 **Задание 11 (Beginner):** Создайте и запустите простую Task с помощью Task.Run()
 
@@ -78,7 +76,7 @@
 
 **Задание 20 (Intermediate):** Используйте TaskScheduler для управления выполнением Task
 
-### Категория 3: Async/Await — Задания 21-30
+### Категория 3: Async/Await
 
 **Задание 21 (Beginner):** Создайте асинхронный метод с async/await
 
@@ -100,7 +98,7 @@
 
 **Задание 30 (Advanced):** Используйте Task.FromResult() для возврата готового результата
 
-### Категория 4: Lock Synchronization (Lock Синхронизация) — Задания 31-40
+### Категория 4: Lock Synchronization (Lock Синхронизация)
 
 **Задание 31 (Intermediate):** Используйте lock для защиты общей переменной от race condition
 
@@ -122,7 +120,7 @@
 
 **Задание 40 (Advanced):** Реализуйте паттерн "Читатели-писатели" с lock
 
-### Категория 5: Mutex/Semaphore — Задания 41-50
+### Категория 5: Mutex/Semaphore
 
 **Задание 41 (Intermediate):** Используйте Mutex для синхронизации между потоками
 
@@ -144,7 +142,7 @@
 
 **Задание 50 (Intermediate):** Используйте ManualResetEvent для управления сигналами
 
-### Категория 6: CancellationToken (Отмена операций) — Задания 51-58
+### Категория 6: CancellationToken (Отмена операций)
 
 **Задание 51 (Intermediate):** Используйте CancellationToken для отмены потока
 
@@ -162,7 +160,7 @@
 
 **Задание 58 (Advanced):** Реализуйте graceful shutdown приложения с CancellationToken
 
-### Категория 7: ThreadPool — Задания 59-66
+### Категория 7: ThreadPool
 
 **Задание 59 (Intermediate):** Используйте ThreadPool.QueueUserWorkItem для выполнения работы
 
@@ -180,7 +178,7 @@
 
 **Задание 66 (Intermediate):** Используйте IOCompletionPort для асинхронного I/O
 
-### Категория 8: Parallel — Задания 67-76
+### Категория 8: Parallel
 
 **Задание 67 (Intermediate):** Используйте Parallel.For для параллельного цикла
 
@@ -202,7 +200,7 @@
 
 **Задание 76 (Advanced):** Используйте ParallelOptions для настройки поведения
 
-### Категория 9: PLINQ — Задания 77-82
+### Категория 9: PLINQ
 
 **Задание 77 (Intermediate):** Используйте AsParallel() для параллельного LINQ запроса
 
@@ -216,7 +214,7 @@
 
 **Задание 82 (Intermediate):** Используйте ToList() для материализации результатов PLINQ
 
-### Категория 10: Thread-Safe Collections — Задания 83-90
+### Категория 10: Thread-Safe Collections
 
 **Задание 83 (Intermediate):** Используйте ConcurrentDictionary вместо Dictionary
 
@@ -234,7 +232,7 @@
 
 **Задание 90 (Intermediate):** Используйте TryAdd и TryRemove в ConcurrentDictionary
 
-### Категория 11: Interlocked Operations — Задания 91-96
+### Категория 11: Interlocked Operations
 
 **Задание 91 (Intermediate):** Используйте Interlocked.Increment для атомарного увеличения
 
@@ -248,7 +246,7 @@
 
 **Задание 96 (Intermediate):** Используйте Interlocked.Exchange для обмена значениями
 
-### Категория 12: EventWaitHandle — Задания 97-100
+### Категория 12: EventWaitHandle
 
 **Задание 97 (Intermediate):** Используйте AutoResetEvent для сигнализации между потоками
 
@@ -259,8 +257,6 @@
 **Задание 100 (Advanced):** Реализуйте паттерн "Producer-Consumer" с EventWaitHandle
 
 ---
-
-## РЕШЕНИЯ 5 СЛУЧАЙНО ВЫБРАННЫХ ЗАДАНИЙ
 
 ### ✅ Решение Задания #10: Thread Basics (Intermediate)
 **Текст:** Создайте несколько потоков и синхронизируйте вывод результатов
@@ -641,5 +637,3 @@ class Program
 5. **Игнорировать потокобезопасность коллекций** — race condition
 
 ---
-
-*Последнее обновление: 2025*
